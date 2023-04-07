@@ -15,11 +15,12 @@ public class Order {
     }
 
     public int calculatePrice() {
-        if(itemPrice >= discountPrice) {    // 가격 > 할인금액
-            return itemPrice - discountPrice;
-        } else {
-            return 0;
-        }
+//        if(itemPrice >= discountPrice) {    // 가격 > 할인금액
+//            return itemPrice - discountPrice;
+//        } else {
+//            return 0;
+//        }
+        return itemPrice - discountPrice;
     }
 
     public Long getMemberId() {
